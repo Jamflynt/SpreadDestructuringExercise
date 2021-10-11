@@ -14,7 +14,7 @@ const starWarsShows = [
 const disneyPlusShows = [
     ...mcuShows,
     ...starWarsShows
-];
+]; // somehow missed the adding "Monster's at Work" thing in the instructions
 
 // 1d
 console.log(disneyPlusShows);
@@ -94,5 +94,10 @@ const all = [
 
 // 5b 
 const [one, two, three, four, five, six, seven, eight, nine] = all;
+
+// This is another way to do it without using the all variable
+// const [one, two, three] = bonus.first;
+// const [four, five, six] = bonus.second;
+// const [seven, eight, nine] = bonus.third;
 
 console.log(one);
